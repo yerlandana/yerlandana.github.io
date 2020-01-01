@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Dana Yerlanova"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Almaty, KZ"
   email            :
