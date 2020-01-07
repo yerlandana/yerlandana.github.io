@@ -15,4 +15,4 @@ what kind factors on the other hand, decrease company's profit.</p>
 
   <p>Loading R packages used besides base R.</p>
 
-![libraries](/photos_sale/39.png
+![libraries](/photos_sale/39.png)
