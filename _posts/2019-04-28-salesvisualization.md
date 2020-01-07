@@ -13,7 +13,7 @@ what kind factors on the other hand, decrease company's profit.</p>
 
 ## 2 Loading and Exploring Data
 
-# 2.1 Loading libraries required and reading the data into R
+### 2.1 Loading libraries required and reading the data into R
 
   <p>Loading R packages used besides base R.</p>
 
@@ -31,5 +31,3 @@ what kind factors on the other hand, decrease company's profit.</p>
   the 'Cost of sales' column and replaced with it. Because, 'NA' is located on the
   last day(row) of sale and they didn't finished to record that data.
   Then I mutated a new column 'Profit' which equals to the 'Fact..KZT..with.discount.- 'Cost.of.sales'.</p>
-
-  
