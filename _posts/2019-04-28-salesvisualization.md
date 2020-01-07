@@ -9,10 +9,27 @@ tags: [data analysis, data visualization, data science in R
 shoe company. This company's sale have been decreasing since 2018, and they
 want to figure out what kind of factors positively affect to sale and
 what kind factors on the other hand, decrease company's profit.</p>
-  <p>Source of code linked [here](https://github.com/yerlandana/sales/blob/master/unilever.Rmd) .</p>
+  <p>Source of code linked [here](https://github.com/yerlandana/sales/blob/master/unilever.Rmd) . </p>
 
 ## 2 Loading and Exploring Data
+
+# 2.1 Loading libraries required and reading the data into R
 
   <p>Loading R packages used besides base R.</p>
 
 ![libraries](/photos_sale/39.png)
+
+![dataframes](/photos_sale/40.png)
+
+  <p> Reading the table.csv. Also, I found that date stored as a string
+  and I converted it to date format by using 'datetime', and disabled scientific
+  notation. This date frame has 809 rows and 11 columns.</p>
+![evidence](/photos_sale/0.png)
+
+  <p> By viewing the type of data in each column, I check the number of 'NA'.
+  I have only one 'NA'  in 'Cost of sales' column, therefore I found a mean of
+  the 'Cost of sales' column and replaced with it. Because, 'NA' is located on the
+  last day(row) of sale and they didn't finished to record that data.
+  Then I mutated a new column 'Profit' which equals to the 'Fact..KZT..with.discount.- 'Cost.of.sales'.</p>
+
+  
