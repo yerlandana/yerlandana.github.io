@@ -36,7 +36,8 @@ what kind factors on the other hand, decrease company's profit.</p>
   ![evidence](/photos_sale/41.png)
   Last 10 rows of 'Cost.of.sale' column, and 'NA' have been replaced by 604679.7.
 
-
+### 2.2 Now, We compare the Planned profit with actual profit
+<p> We will group by year and compare the company's planned profit with actual profit. </p>
 
   ```r
   df_year <- df%>% group_by(year)%>%summarize(meanProfit=mean(Profit), total=sum(Profit), planProfit= sum(Plan..KZT), difference = planProfit-total)
@@ -47,3 +48,17 @@ what kind factors on the other hand, decrease company's profit.</p>
           col=terrain.colors(3))
   legend("topright", c("2016", "2017","2018"), col=terrain.colors(3), lwd=15);
   ```
+![photo1](/photos_sale/2.png)
+![photo3](/photos_sale/3.png)
+
+<p> We can see that company's profit didn't reached the planned income rate.</p>
+
+### 2.3 Traffic of clients visualization
+
+```r
+df1<-df%>%group_by(year)%>%summarize(meanTraffic=mean(Traffic))
+ggplot(data=df1, aes(year, meanTraffic))+geom_line()+geom_point()
+```
+[!photo4](photos_sale/4.png)
+
+<p>The traffic of clients is also declined from 2016-2018.</p>
