@@ -5,6 +5,9 @@ date: 2019-04-28
 tags: [data analysis, data visualization, data science in R
 excerpt: "Data Visualization, sales, Statistics"
 ---
+
+
+
 ## 1 Introduction
 
   <p>It's my first project, where our instructor gave me a dataset of 'XYZ'
