@@ -288,7 +288,7 @@ defaults:
     values:
       title: "How to increase the profit of Shoe Shop?"
       date: 2019-04-28
-      tags: [data analysis, data visualization, data science in R # it's mistake change it!!
+      tags: [data analysis, data visualization, data science in R  #change it!
       layout: single
       author_profile: true
       read_time: true
