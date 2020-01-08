@@ -36,7 +36,9 @@ what kind factors on the other hand, decrease company's profit.</p>
   ![evidence](/photos_sale/41.png)
   Last 10 rows of 'Cost.of.sale' column, and 'NA' have been replaced by 604679.7.
 
-  ```{r}
+
+
+  ```{r qplot, fig.width=4, message = FALSE}
   df_year <- df%>% group_by(year)%>%summarize(meanProfit=mean(Profit), total=sum(Profit), planProfit= sum(Plan..KZT), difference = planProfit-total)
   datatable(df_year)
   options(scipen=100000)
