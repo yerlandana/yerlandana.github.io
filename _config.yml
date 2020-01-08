@@ -111,7 +111,7 @@ author:
   avatar           : "/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Almaty, KZ"
-  email            :
+  email            : "dyerlanova@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -286,6 +286,8 @@ defaults:
       path: ""
       type: posts
     values:
+      title: true
+      tags: true
       layout: single
       author_profile: true
       read_time: true
