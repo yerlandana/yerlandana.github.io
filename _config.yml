@@ -115,7 +115,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url:  dyerlanova@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -287,8 +287,8 @@ defaults:
       type: posts
     values:
       title: "How to increase the profit of Shoe Shop?"
-      date: 2019-04-28
-      tags: [data analysis, data visualization, data science in R]
+      excerpt: "By analyzing factors that affect to profit of the company, build a
+      recommendation to invest in some factors to increase the profit."
       layout: single
       author_profile: true
       read_time: true
