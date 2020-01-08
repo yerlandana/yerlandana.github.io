@@ -1,5 +1,6 @@
 ---
 title: "How to increase the profit of Shoe Shop?"
+layout: single
 date: 2019-04-28
 tags: [data analysis, data visualization, data science in R
 excerpt: "Data Visualization, sales, Statistics"
