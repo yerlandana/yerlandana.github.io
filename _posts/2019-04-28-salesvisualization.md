@@ -59,6 +59,6 @@ what kind factors on the other hand, decrease company's profit.</p>
 df1<-df%>%group_by(year)%>%summarize(meanTraffic=mean(Traffic))
 ggplot(data=df1, aes(year, meanTraffic))+geom_line()+geom_point()
 ```
-[!photo4](photos_sale/4.png)
+[!photo4](/photos_sale/4.png)
 
 <p>The traffic of clients is also declined from 2016-2018.</p>
