@@ -2,6 +2,7 @@
 title: "How to increase the profit of Shoe Shop?"
 date: 2019-04-28
 tags: [data analysis, data visualization, data science in R
+excerpt: "Data Visualization, sales, Statistics"
 ---
 ## 1 Introduction
 
@@ -9,7 +10,7 @@ tags: [data analysis, data visualization, data science in R
 shoe company. This company's sale have been decreasing since 2018, and they
 want to figure out what kind of factors positively affect to sale and
 what kind factors on the other hand, decrease company's profit.</p>
-  <p>Source of code linked [here](https://github.com/yerlandana/sales/blob/master/unilever.Rmd) . </p>
+  <p>Source of code linked [here](https://github.com/yerlandana/sales/blob/master/unilever.Rmd). </p>
 
 ## 2 Loading and Exploring Data
 
@@ -31,3 +32,16 @@ what kind factors on the other hand, decrease company's profit.</p>
   the 'Cost of sales' column and replaced with it. Because, 'NA' is located on the
   last day(row) of sale and they didn't finished to record that data.
   Then I mutated a new column 'Profit' which equals to the 'Fact..KZT..with.discount.- 'Cost.of.sales'.</p>
+
+  ![evidence](/photos_sale/41.png)
+  Last 10 rows of 'Cost.of.sale' column, and 'NA' have been replaced by 604679.7.
+
+  ```{r}
+  df_year <- df%>% group_by(year)%>%summarize(meanProfit=mean(Profit), total=sum(Profit), planProfit= sum(Plan..KZT), difference = planProfit-total)
+  datatable(df_year)
+  options(scipen=100000)
+  mydata <- data.frame(Real_with_discount=df_year$total, Predicted=df_year$planProfit)
+  barplot(as.matrix(mydata), main="Real & Predicted income", ylab="Total", beside=TRUE,
+          col=terrain.colors(3))
+  legend("topright", c("2016", "2017","2018"), col=terrain.colors(3), lwd=15);
+  ```
