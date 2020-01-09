@@ -290,10 +290,9 @@ defaults:
       recommendation to invest in some factors to increase the profit."
       layout: single
       author_profile: true
-      read_time: true
+      read_time: 9 minutes
       comments: # true
       share: true
-      related: true
 
 #_pages
   - scope:
