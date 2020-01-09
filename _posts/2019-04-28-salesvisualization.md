@@ -306,7 +306,11 @@ Factors
 
 <p>The highest effect to profit has the month and the lowest productivity. The negatively effect has a discount.</p>
 
-### The highest profit month, might be it doesn’t depend on month?
+### The highest profit month, might be it doesn’t depend on month? Does it happened on chance?
+<p>We use T-Test to find it.</p>
+>So, I pick that, if t-test value is greater than 1, I would assume that month and profit the results are repeatable,
+which means for the future years October or Autumn would remain as the season of the biggest profit.Also, p-value should be lower
+than 0.05 or 5%.
 
 ```r
 library(lubridate)
@@ -314,7 +318,8 @@ t.test(df$Fact..KZT..with.discount.[df$month == 10 & df$year == 2016],df$Fact..K
 ```
 ![photo38](/photos_sale/38.png)
 
-<p></p>
+
+<p>T-test value equals t = 1.4646 and p value = 0.1484(148%) , which means that the biggest sale in October is completely  is a chance, but it means we could increase profit in any month by recommendation wrote in conclusion.</p>
 
 ```r
 x<- df %>% select(Fact..KZT..with.discount., month, year)%>%filter(month==3, year == 2016|year==2017)
@@ -322,10 +327,19 @@ fligner.test(Fact..KZT..with.discount.~year, data=x)
 ```
 ![photo43](/photos_sale/43.png)
 
-<p></p>
+<p>By Fligner-Killeen test p-value = 0.879(88%), which means that the month with the highest profit is a combination of certain factors.</p>
 
 >In conclusion:
-1. Do discounts when there isn’t seasoning Winter-Spring
-2. Increasing traffic during Spring
-3. Increase quantity of hours of work during weekends
-4. Make average check 10000-15000
+   Amount of profit highly depend on 3 main Factors: month(seasonality), traffic of clients, Average item price
+
+> To increase profit by seasonality:
+    * Decrease the discounts to 20-40% during Autumn, Summer.
+    * Increase productivity and work hours in those seasons
+
+> To increase profit by traffic of clients:
+     * Make discounts only up to 50%
+     * Advertisement during Spring and autumn
+     * Increase quantity of hours of work during weekends
+
+> To increase profit by average item price:
+    * Make most of average item price 10000-20000, they have a huge probability of being sold
