@@ -272,7 +272,7 @@ ggplot(data=df_day_weekday, aes(weekday,meanTime, fill=Profit))+
   geom_bar(stat='identity')
 ```
 
-![photo33](/photos_sales/33.png)
+![photo33](/photos_sale/33.png)
 
 ```r
 df_day_weekday<-df%>%group_by(weekday)%>%summarize(meanProductivity=mean(Productivity),Cost.of.sales=mean(Cost.of.sales))
@@ -280,7 +280,7 @@ ggplot(data=df_day_weekday, aes(weekday, meanProductivity, fill=Cost.of.sales))+
   geom_bar(stat='identity')
 ```
 
-![photo34](photos_sale/34.png)
+![photo34](/photos_sale/34.png)
 
 <p>So we can made a conclusion that productivity doesn’t so much affect to the profit, but it rises cost of sales, which means helps to serve more customers.</p>
 
@@ -295,14 +295,14 @@ library(rpart.plot)
 Discfactor <- lm(Average.discount ~  Qty.of.hours + Productivity + month+Average.price.piece+Traffic,data = df)
 Discfactor
 ```
-![photo36](photos_sale/36.png)
+![photo36](/photos_sale/36.png)
 
 ### Let’s see what kind of factors affect to the income?
 ```r
 Factors <- lm(Profit ~ Average.discount + Qty.of.hours + Productivity + month+Average.price.piece+Traffic,data = df)
 Factors
 ```
-![photo37](photos_sale/37.png)
+![photo37](/photos_sale/37.png)
 
 <p>The highest effect to profit has the month and the lowest productivity. The negatively effect has a discount.</p>
 
@@ -312,7 +312,7 @@ Factors
 library(lubridate)
 t.test(df$Fact..KZT..with.discount.[df$month == 10 & df$year == 2016],df$Fact..KZT..with.discount.[df$month == 10 & df$year == 2017])
 ```
-![photo38](photos_sale/38.png)
+![photo38](/photos_sale/38.png)
 
 <p></p>
 
@@ -320,7 +320,7 @@ t.test(df$Fact..KZT..with.discount.[df$month == 10 & df$year == 2016],df$Fact..K
 x<- df %>% select(Fact..KZT..with.discount., month, year)%>%filter(month==3, year == 2016|year==2017)
 fligner.test(Fact..KZT..with.discount.~year, data=x)
 ```
-![photo43](photos_sale/43.png)
+![photo43](/photos_sale/43.png)
 
 <p></p>
 
