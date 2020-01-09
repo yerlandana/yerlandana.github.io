@@ -344,4 +344,5 @@ In conclusion:
      - Increase quantity of hours of work during weekends
 
  To increase profit by average item price:
+ 
     - Make most of average item price 10000-20000, they have a huge probability of being sold
