@@ -333,10 +333,12 @@ In conclusion:
    Amount of profit highly depend on 3 main Factors: month(seasonality), traffic of clients, Average item price
 
  To increase profit by seasonality:
-..* Decrease the discounts to 20-40% during Autumn, Summer
+
+    - Decrease the discounts to 20-40% during Autumn, Summer
     - Increase productivity and work hours in those seasons
 
  To increase profit by traffic of clients:
+
      - Make discounts only up to 50%
      - Advertisement during Spring and autumn
      - Increase quantity of hours of work during weekends
