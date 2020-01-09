@@ -111,7 +111,6 @@ author:
   avatar           : "/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Almaty, KZ"
-  email            : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
