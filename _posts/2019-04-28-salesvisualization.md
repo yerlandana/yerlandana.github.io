@@ -329,17 +329,17 @@ fligner.test(Fact..KZT..with.discount.~year, data=x)
 
 <p>By Fligner-Killeen test p-value = 0.879(88%), which means that the month with the highest profit is a combination of certain factors.</p>
 
->In conclusion:
+In conclusion:
    Amount of profit highly depend on 3 main Factors: month(seasonality), traffic of clients, Average item price
 
-> To increase profit by seasonality:
+ To increase profit by seasonality:
     * Decrease the discounts to 20-40% during Autumn, Summer.
     * Increase productivity and work hours in those seasons
 
-> To increase profit by traffic of clients:
+ To increase profit by traffic of clients:
      * Make discounts only up to 50%
      * Advertisement during Spring and autumn
      * Increase quantity of hours of work during weekends
 
-> To increase profit by average item price:
+ To increase profit by average item price:
     * Make most of average item price 10000-20000, they have a huge probability of being sold
