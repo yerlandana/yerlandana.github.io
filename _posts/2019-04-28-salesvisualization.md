@@ -12,7 +12,6 @@ tags: [data analysis, data visualization, data science in R
 shoe company. This company's sale have been decreasing since 2018, and they
 want to figure out what kind of factors positively affect to sale and
 what kind factors on the other hand, decrease company's profit.</p>
-  <p>Source of code linked [here](https://github.com/yerlandana/sales/blob/master/unilever.Rmd). </p>
 
 ## 2 Loading and Exploring Data
 
