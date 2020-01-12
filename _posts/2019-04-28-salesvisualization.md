@@ -20,9 +20,34 @@ what kind factors on the other hand, decrease company's profit.</p>
 
   <p>Loading R packages used besides base R.</p>
 
-![libraries](/photos_sale/39.png)
+```r
+library(DT)
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+library(reshape2)
+library(lubridate)
+library(rpart)
+library(DMwR)
+library(rpart.plot)
+```
 
-![dataframes](/photos_sale/40.png)
+```r
+df<-read.csv('C://Users/dyerl/Documents/table.csv', stringsAsFactors = F)
+df$Date <- mdy(df$Date)
+df$year <- year(df$Date)
+df$month <- month(df$Date)
+df$day <- day(df$Date)
+df$weekday <- weekdays(df$Date)
+options(scipen=100000)
+dim(df)
+str(df[,c(-10:-1)])
+m<-sapply(df, function(x)sum(is.na(x)))
+m
+df$Cost.of.sales <- ifelse(is.na(df$Cost.of.sales), mean(df$Cost.of.sales, na.rm=TRUE), df$Cost.of.sales)
+df<-df%>%mutate(Profit = Fact..KZT..with.discount.- Cost.of.sales)
+tail(df$Cost.of.sales, 10)
+```
 
   <p> Reading the table.csv. Also, I found that date stored as a string
   and I converted it to date format by using 'datetime', and disabled scientific
@@ -344,5 +369,5 @@ In conclusion:
      - Increase quantity of hours of work during weekends
 
  To increase profit by average item price:
- 
+
     - Make most of average item price 10000-20000, they have a huge probability of being sold
