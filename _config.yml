@@ -285,13 +285,13 @@ defaults:
       path: ""
       type: posts
     values:
-      title: "How to increase the profit of Shoe Shop?"
+      title: "R PROJECT : How to increase the profit of Shoe Shop?"
       excerpt: "By analyzing factors that affect to profit of the company, build a
       recommendation to invest in some factors to increase the profit."
       layout: single
       author_profile: true
       read_time: 9 minutes to read
-      comments: # true
+      comments: true
       share: true
 
 #_pages
