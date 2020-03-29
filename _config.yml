@@ -20,7 +20,7 @@ title                    : "Dana Yerlanova"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Dana Yerlanova"
-description              : "Data Science Portfolio"
+description              : "Projects Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -293,6 +293,7 @@ defaults:
       read_time: 9 minutes to read
       comments: true
       share: true
+defaults:
   - scope:
       path: ""
       type: posts
