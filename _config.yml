@@ -298,7 +298,7 @@ defaults:
       path: ""
       type: posts
     values:
-      title: "React-Native application for learning English vocablary with cards."
+      title: "React-Native application for learning English vocabulary with cards."
       excerpt: "EngLearn is an app for creating your own stickers to learn English words.
       Furthermore, user could play games by making learning more engaging."
       layout: single
