@@ -293,7 +293,7 @@ defaults:
       read_time: 9 minutes to read
       comments: true
       share: true
-defaults:
+
   - scope:
       path: ""
       type: posts
@@ -306,7 +306,7 @@ defaults:
       read_time: 12 minutes to read
       comments: true
       share: true
-defaults:
+
   - scope:
       path: ""
       type: posts
@@ -319,7 +319,7 @@ defaults:
       read_time: 12 minutes to read
       comments: true
       share: true
-defaults:
+
   - scope:
       path: ""
       type: posts
@@ -333,7 +333,7 @@ defaults:
       read_time: 12 minutes to read
       comments: true
       share: true
-defaults:
+
   - scope:
       path: ""
       type: posts
@@ -347,7 +347,7 @@ defaults:
       read_time: 12 minutes to read
       comments: true
       share: true
-defaults:
+
   - scope:
       path: ""
       type: posts
