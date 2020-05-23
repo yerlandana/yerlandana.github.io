@@ -282,7 +282,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/_posts/2019-04-28-salesvisualization.md"
       type: posts
     values:
       title: "R PROJECT : How to increase the profit of Shoe Shop?"
@@ -295,7 +295,7 @@ defaults:
       share: true
 
   - scope:
-      path: ""
+      path: "/_posts/2019-05-28-englearn-app.md"
       type: posts
     values:
       title: "React-Native application for learning English vocabulary with cards."
@@ -308,7 +308,7 @@ defaults:
       share: true
 
   - scope:
-      path: ""
+      path: "/_posts/2019-08-19-sequence.md"
       type: posts
     values:
       title: "Android Application Sequence - a reminder to take pills on time."
