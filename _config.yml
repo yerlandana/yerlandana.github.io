@@ -334,31 +334,6 @@ defaults:
       comments: true
       share: true
 
-  - scope:
-      path: ""
-      type: posts
-    values:
-      title: "Android Application Lavos - car washing service reservation application in Kazakhstan."
-      excerpt: "The application is a marketplace of different car washing services with brief and full
-      description, which also in a real time shows the availability of washing room in a particular
-      sesrvice."
-      layout: single
-      author_profile: true
-      read_time: 12 minutes to read
-      comments: true
-      share: true
-
-  - scope:
-      path: ""
-      type: posts
-    values:
-      title: "Yoda - a todo application with progress tracker"
-      excerpt: "Application wrote in Kotlin."
-      layout: single
-      author_profile: true
-      read_time: 12 minutes to read
-      comments: true
-      share: true
 #_pages
   - scope:
       path: ""
