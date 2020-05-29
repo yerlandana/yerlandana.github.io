@@ -312,7 +312,7 @@ defaults:
       type: posts
     values:
       title: "Android Application Sequence - a reminder to take pills on time."
-      excerpt: "Application written in Java 8 that allows users to track the medical
+      excerpt: "Application allows users to track the medical
       treatment by creating a schedule and receiving notification from application."
       layout: single
       author_profile: true
@@ -321,7 +321,7 @@ defaults:
       share: true
 
   - scope:
-      path: ""
+      path: "/_posts/2020-01-12-lavos.md"
       type: posts
     values:
       title: "Android Application Lavos - car washing service reservation application in Kazakhstan."
