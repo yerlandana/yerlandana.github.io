@@ -5,7 +5,7 @@ tags: [data analysis, data visualization, data science in R]
 excerpt: "By analyzing factors that affect to profit of the company, build a
 recommendation to invest in some factors to increase the profit."
 layout: single
-read_time: 9 minutes to read
+read_time: "9 minutes to read" 
 comments: true
 share: true
 ---
