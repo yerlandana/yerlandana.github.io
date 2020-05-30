@@ -314,8 +314,7 @@ defaults:
       type: posts
     values:
       title: "Android Application Sequence - a reminder to take pills on time."
-      excerpt: "Application allows users to track the medical
-      treatment by creating a schedule and receiving notification from application."
+      excerpt: "Application allows users to track the medical treatment by creating a schedule and receiving notification from application."
       layout: single
       author_profile: true
       read_time: "12 minutes to read"
