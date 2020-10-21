@@ -9,4 +9,4 @@ main:
   # - title: "Sample Collections"
   #   url: /collection-archive/
   - title: "Code Notes"
-    url: /blog_post/handmade-blog/
+    url: /_pages/posts.md/
