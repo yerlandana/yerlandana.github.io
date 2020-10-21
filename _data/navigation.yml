@@ -8,5 +8,5 @@ main:
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "Code Notes"
+    url: /_pages/notes.md
