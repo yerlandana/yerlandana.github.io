@@ -9,4 +9,4 @@ main:
   # - title: "Sample Collections"
   #   url: /collection-archive/
   - title: "Code Notes"
-    path: "/_pages/posts.md"
+    url: "../"
