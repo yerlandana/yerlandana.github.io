@@ -114,7 +114,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url:  dyerlanova@gmail.com
+      url:  "dyerlanova@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -338,6 +338,12 @@ defaults:
 #_pages
   - scope:
       path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: "/_pages/"
       type: pages
     values:
       layout: single
