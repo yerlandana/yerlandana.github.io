@@ -1,12 +1,4 @@
 # main links
 main:
-#   - title: "Quick-Start Guide"
-#     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
   - title: "Code Notes"
     url: "../_posts/2020-01-12-lavos.md"

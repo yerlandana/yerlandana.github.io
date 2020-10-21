@@ -343,7 +343,6 @@ defaults:
       layout: single
       author_profile: true
   - scope:
-      title: "_blogposts"
       path: "/_pages/posts.md"
       type: pages
     values:
