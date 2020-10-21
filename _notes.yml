@@ -294,3 +294,57 @@ defaults:
       comments: true
       tags: [data analysis, data visualization, data science in R]
       share: true
+
+  - scope:
+      path: "/_posts/2019-05-28-englearn-app.md"
+      type: posts
+    values:
+      title: "React-Native application for learning English vocabulary with cards."
+      excerpt: "EngLearn is an app for creating your own stickers to learn English words.
+      Furthermore, user could play games by making learning more engaging."
+      layout: single
+      tags: [react native, react.js, game]
+      author_profile: true
+      read_time: "12 minutes to read"
+      comments: true
+      share: true
+
+  - scope:
+      path: "/_posts/2019-08-19-sequence.md"
+      type: posts
+    values:
+      title: "Android Application Sequence - a reminder to take pills on time."
+      excerpt: "Application allows users to track the medical treatment by creating a schedule and receiving notification from application."
+      layout: single
+      author_profile: true
+      read_time: "12 minutes to read"
+      comments: true
+      share: true
+
+  - scope:
+      path: "/_posts/2020-01-12-lavos.md"
+      type: posts
+    values:
+      title: "Lavos - car washing service reservation application in Kazakhstan."
+      excerpt: "The application is a marketplace of different car washing services with brief and full
+      description, which also in a real time shows the availability of washing room in a particular
+      service."
+      layout: single
+      author_profile: true
+      read_time: "7 minutes to read"
+      comments: true
+      share: true
+
+#_pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: "/_pages/"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
