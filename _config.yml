@@ -337,7 +337,13 @@ defaults:
 
 #_pages
   - scope:
-      path: "/_pages/"
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: "/_pages/posts.md"
       type: pages
     values:
       layout: single
